@@ -1,0 +1,12 @@
+/* My style */
+@mixin mix($pixels){
+	margin-left: #{$pixels}px;
+	margin-right: #{$pixels}px;
+
+}
+body {
+	@include mix(10);
+}
+div {
+	@include mix(15);
+}
